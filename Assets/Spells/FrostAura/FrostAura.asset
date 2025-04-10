@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51299e6d17414d53aed5b56ab6bcec6f, type: 3}
+  m_Name: FrostAura
+  m_EditorClassIdentifier: 
+  spellName: FrostAura
+  element: 2
+  rarity: 0
+  attackType: 2
+  projectilePrefab: {fileID: 4132665250902506480, guid: ee63f80ffbd65a049812f2462a93c5d1, type: 3}
+  minDamage: 2
+  maxDamage: 4
+  cooldownTime: 0
+  projectileSpeed: 1
+  range: 5
+  amount: 1
+  slowMultiplier: 50
+  elementalEffectChance: 1
+  elementalEffectDuration: 50
+  elementalEffectPower: 1
+  currentLevel: 1
+  maxLevel: 5
